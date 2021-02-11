@@ -1,0 +1,13 @@
+{
+  "name": "checkk/html-builder",
+  "description": "Easy way to build html elements",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Checkk\\HtmlBuilder\\": "src/"
+    }
+  }
+}
