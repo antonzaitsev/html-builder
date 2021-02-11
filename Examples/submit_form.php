@@ -12,6 +12,6 @@ $form->addHiddenInput('csrf', 'csrfhashstring');
 $form->addHiddenInput('password', 'pa$$word');
 $form->addSubmitInput('Push me');
 
-$form->addScript("window.onload = function () {document.getElementByTagName('form').submit()}");
+$form->addScript("window.onload = function () {document.forms[0].submit();}");
 
 echo $form;

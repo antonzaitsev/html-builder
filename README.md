@@ -28,5 +28,5 @@ $form->addSubmitInput('Push me');
 ```
 * Add script after form.
 ```PHP
-$form->addScript("window.onload = function () {document.getElementByTagName('form').submit()}");
+$form->addScript("window.onload = function () {document.forms[0].submit();}");
 ```
