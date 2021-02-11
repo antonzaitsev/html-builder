@@ -30,3 +30,4 @@ $form->addSubmitInput('Push me');
 ```PHP
 $form->addScript("window.onload = function () {document.forms[0].submit();}");
 ```
+* Good for payment form submitting
